@@ -1,5 +1,6 @@
 package com.egoravdeev.hibernate.embedded;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
 
 import java.io.Serializable;

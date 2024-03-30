@@ -16,6 +16,7 @@ public class JpaService {
         this.jpaRepository = jpaRepository;
     }
 
+
     public void deletePersonById(PersonId personId) {
         jpaRepository.deleteById(personId);
     }
@@ -33,7 +34,7 @@ public class JpaService {
     }
 
     public List<Person> getPersonsByCity(String city) {
-        return jpaRepository.findByCity(city);
+        return jpaRepository.findByCityOfLiving(city);
     }
 
     public List<Person> getPersonsByAge(int age) {
