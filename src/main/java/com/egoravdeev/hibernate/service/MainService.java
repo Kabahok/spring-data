@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 import java.time.Period;
 import java.util.List;
 
-@Service
 public class MainService {
 
     private final MainRepository mainRepository;
